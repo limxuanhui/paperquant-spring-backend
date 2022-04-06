@@ -1,4 +1,4 @@
-package com.paperquant.springbackend.models;
+package com.paperquant.springbackend.models.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
