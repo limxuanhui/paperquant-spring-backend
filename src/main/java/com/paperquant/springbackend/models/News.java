@@ -1,12 +1,14 @@
-package com.paperquant.springbackend.models.news;
+package com.paperquant.springbackend.models;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
 
 import static javax.persistence.GenerationType.AUTO;
 
-public class NewsArticle {
+@Entity
+public class News {
     @Id
     @GeneratedValue(strategy = AUTO)
     private Long id;

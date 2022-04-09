@@ -1,4 +1,4 @@
-package com.paperquant.springbackend.models.user;
+package com.paperquant.springbackend.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -27,5 +27,6 @@ public class User {
     @NotBlank(message = "Email is required")
     private String email;
     private Instant createdAt;
+    private Boolean emailIsVerified;
     private Boolean isAdmin;
 }
